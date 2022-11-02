@@ -1,0 +1,1402 @@
+/*==========
+CSS Indexing
+=>Default Addon CSS
+=>Slide Addon CSS
+=>Logo Carousel Addon CSS
+=>Service Box Addon CSS
+=>Call To Action Addon CSS
+=>Visual composer Accrodion Addon CSS
+=>List CSS
+=>Button CSS
+=>Contact Form CSS
+=>Promo Box Addon CSS
+=>Tile Gallery Addon CSS
+=>Finance Area CSS
+=>Preloader CSS
+===========*/
+
+
+/*==============
+Default Addon CSS
+================*/
+
+.vc_row.overlay {
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	background-position: center;
+	background-size: cover;
+}
+
+.vc_row.overlay:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #20272a;
+	z-index: -1;
+	opacity: .9;
+}
+
+.large-text h1 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.large-text p {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.stock-btn .bordered-btn {
+	position: relative;
+	display: inline-block;
+}
+
+.stock-stat h3 {
+	color: #2fb3f6;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.stock-stat {
+	font-size: 20px;
+}
+
+.stock-btn .bordered-btn {
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+}
+
+.stock-btn .bordered-btn:after {
+	width: 40%;
+}
+
+.stock-btn .bordered-btn:hover:after {
+	width: 80%;
+}
+
+.text-size {
+	font-size: 18px;
+	font-weight: 400;
+	color: #666666;
+}
+
+.vc_row.bg-left-buttom {
+	background-position: left bottom !important;
+}
+
+.margin-0 .vc_col-has-fill>.vc_column-inner,
+.vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner,
+.vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner,
+.vc_row-has-fill>.vc_column_container>.vc_column-inner {
+	margin: 0 !important;
+	padding-top: 0 !important;
+}
+
+.margin-0 .wpb_button,
+.wpb_content_element,
+ul.wpb_thumbnails-fluid>li {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.post,
+.page {
+	margin: 0 !important;
+}
+
+.margin-0 div.wpb_gmaps_widget .wpb_wrapper {
+	background: none !important;
+	margin: none !important;
+	padding: 0 !important;
+}
+
+.text-style h2 {
+	color: #fff;
+	font-size: 29px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 1.7;
+}
+
+div.entry-content {
+	margin: 0;
+}
+
+.biger-text {
+	font-size: 20px;
+	font-weight: 300;
+	color: #333;
+}
+
+.margin-30 h1 {
+	margin-bottom: 30px;
+}
+
+.stock-internal-area.enable_section_padding {
+	padding: 70px 0;
+}
+
+.stock-internal-area.section-padding {
+	padding: 60px 0;
+}
+
+.contact-page .stock-contact-form h2 {
+	display: none;
+}
+
+.vc_row.wpb_row.vc_row-fluid.background-right-bottom {
+	background-position: right bottom !important;
+}
+
+
+/*=============
+Slide Addon CSS
+==============*/
+
+.stock-slide-item {
+	background-position: center !important;
+	background-size: cover !important;
+	height: 730px;
+	position: relative;
+	background-color: #ddd;
+	z-index: 1;
+}
+
+.stock-slide-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.stock-slide-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.stock-slide-item h2 {
+	color: #fff;
+	font-size: 56px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.stock-slide-item p {
+	color: #fff;
+	font-size: 22px;
+	line-height: 1.7;
+	font-weight: normal;
+}
+
+.stock-slides .owl-nav button {
+	position: absolute;
+	top: 50%;
+	width: 70px;
+	height: 70px;
+	z-index: 1;
+}
+
+.stock-slides .owl-nav .owl-next {
+	left: auto;
+	right: 0;
+	background: #fff;
+}
+
+.stock-slides .owl-nav button {
+	border-radius: 50%;
+	transition: .4s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.stock-slides .owl-nav i {
+	color: #333333;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	font-size: 30px;
+	background: #fff;
+	transition: .4s;
+}
+
+.stock-slides:hover .owl-nav button {
+	visibility: visible;
+	opacity: 1;
+}
+
+.stock-slides .owl-nav button:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff !important;
+	content: "";
+	opacity: 0.3;
+	z-index: -1;
+	border-radius: 50%;
+}
+
+.stock-slides .owl-nav i:hover {
+	background: #1e8bc3;
+	color: #fff;
+}
+
+.stock-slides .owl-nav:hover .owl-nav button:after {
+	opacity: .5;
+	visibility: visible;
+}
+
+.stock-slides .owl-nav .owl-prev {
+	left: 30px;
+}
+
+.stock-slides .owl-nav .owl-next {
+	right: 30px
+}
+
+.stock-slide-buttons a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.stock-slide-buttons .bordered-btn:hover {
+	color: #fff;
+	opacity: .8;
+}
+
+
+/*=====================
+Logo Carousel Addon CSS
+========================*/
+
+.logo-carousel .owl-dots button {
+	width: 20px;
+	height: 8px;
+	background: #ddd;
+	margin: 3px;
+	color: #333;
+	border-radius: 5px;
+}
+
+.logo-carousel .owl-dots {
+	text-align: center;
+}
+
+.logo-carousel .owl-dots button.active {
+	background: #333;
+}
+
+.logo-carousel .owl-nav button {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	margin-top: -25px;
+	display: block;
+}
+
+.logo-carousel .owl-nav .owl-next {
+	left: auto;
+	right: 0;
+}
+
+.logo-carousel .owl-nav i {
+	font-size: 30px;
+	opacity: .6;
+	line-height: 50px;
+}
+
+.logo-carousel {
+	padding: 0 30px;
+}
+
+.logo-carousel-table {
+	height: 81px;
+	display: table;
+	width: 100%;
+}
+
+.logo-carousel-tablecell img {
+	width: auto;
+	max-height: 30px;
+}
+
+.logo-carousel-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*==================
+Service Box Addon CSS
+====================*/
+
+.stock-service-box {
+	position: relative;
+	border: 1px solid #ecf1f5;
+	padding-left: 26%;
+	transition: .4s;
+	margin-bottom: 30px;
+}
+
+.stock-service-icon {
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	top: 0;
+	border-right: 1px solid #ecf1f5;
+	left: 0;
+	z-index: 1;
+}
+
+.stock-service-content {
+	padding: 15px;
+}
+
+.stock-service-icon i {
+	font-size: 40px;
+	color: #333333;
+	transition: 0.4s;
+}
+
+.stock-service-icon-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.stock-service-icon-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.stock-service-icon:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: #edf4f7;
+	z-index: -1;
+	transition: 0.4s;
+}
+
+.stock-service-icon img {
+	width: 50px;
+	height: 50px;
+}
+
+.stock-service-box:hover {
+	box-shadow: 5px 13px 50px #f1f1f1;
+}
+
+.stock-service-box:hover .stock-service-icon:after {
+	background: #1e8bc3;
+	opacity: .75;
+}
+
+.stock-service-box:hover .stock-service-icon i {
+	color: #fff;
+}
+
+.stock-service-content a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #1e8bc3;
+	transition: .4s;
+	border-bottom: 2px solid #fff;
+}
+
+.stock-service-box:hover .stock-service-content a {
+	border-color: #1e8bc3;
+}
+
+.stock-service-icon {
+	background-size: cover;
+	background-position: center;
+}
+
+.stock-service-content {
+	transition: .4s;
+}
+
+.stock-service-content:hover {
+	opacity: .8;
+}
+
+
+/*=====================
+Call To Action Addon CSS
+=======================*/
+
+.stock-cta-area h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #333333;
+}
+
+.stock-cta-area {
+	text-align: center;
+}
+
+.stock-cta-area p {
+	font-size: 20px;
+	font-weight: 300;
+	color: #666666;
+}
+
+.stock-cta-area .borderd-btn {
+	position: relative;
+	display: inline-block;
+	color: #333;
+}
+
+.stock-cta-area .bordered-btn {
+	display: inline-block;
+	position: relative;
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-bottom: 12px;
+}
+
+.stock-cta-area .bordered-btn:after {
+	width: 70%;
+}
+
+.stock-cta-area .bordered-btn:hover:after {
+	width: 100%;
+}
+
+.cta-bg {
+	position: relative;
+	z-index: 1;
+}
+
+.cta-bg:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #1e8bc3;
+	content: "";
+	z-index: -1;
+	opacity: .9;
+}
+
+.cta-bg {
+	background-position: center;
+}
+
+.stock-cta-area.stock-cta-thme-2 {
+	background: #1e8bc3;
+}
+
+.stock-cta-area.stock-cta-thme-2 h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.stock-cta-area.stock-cta-thme-2 p {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.stock-cta-area.stock-cta-thme-2 .bordered-btn {
+	background: #fff;
+	padding: 15px 28px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.stock-cta-area.stock-cta-thme-2 .bordered-btn:after {
+	display: none;
+}
+
+.stock-cta-area.stock-cta-thme-2 {
+	padding: 30px 36px;
+}
+
+.job-section p {
+	color: #666666;
+	font-size: 18px;
+}
+
+.stock-cta-area.stock-cta-thme-3 h3 {
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.stock-cta-area.stock-cta-thme-3 bordered-btn {
+	display: none;
+}
+
+.stock-cta-area.stock-cta-thme-3 a.bordered-btn:after {
+	display: none;
+}
+
+.stock-cta-area.stock-cta-thme-3 a.bordered-btn {
+	background: #1e8bc3;
+	color: #fff;
+	padding: 0;
+	padding: 18px 22px;
+	border-radius: 5px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.stock-cta-area.stock-cta-thme-3 {
+	text-align: center;
+	padding: 35px 15px;
+	background: #293033;
+	color: #fff;
+}
+
+.stock-cta-area.stock-cta-thme-3 p {
+	color: #fff;
+}
+
+
+/*=================================
+Visual composer Accrodion Addon CSS
+===================================*/
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+	background: none;
+	border: none;
+}
+
+.wpb-js-composer div.vc_tta.vc_general .vc_tta-panel-body {
+	border: none;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+	background: none;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body {
+	background: none;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:focus,
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:hover {
+	background: none;
+}
+
+.wpb-js-composer div.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title>a {
+	padding: 0;
+	padding-left: 23px;
+	color: #333;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.wpb-js-composer div.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon {
+	left: 0;
+}
+
+.vc_tta-panel {
+	border-bottom: 1px solid #dbe4e9;
+	margin-bottom: 15px;
+	padding-bottom: 0;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+	color: #333333;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.wpb-js-composer div.vc_tta.vc_general .vc_tta-panel-body {
+	padding: 0;
+	padding-bottom: 20px;
+}
+
+.wpb-js-composer div.vc_tta.vc_general .vc_tta-panel-body p {
+	color: #666;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.7;
+}
+
+.wpb-js-composer div.vc_tta.vc_general .vc_tta-panel-title {
+	margin: 20px 0;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::after,
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::after {
+	border-color: #1e8bc3;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::after,
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::before {
+	border-color: #1e8bc3;
+}
+
+.wpb_text_column.wpb_content_element.big-text h2 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+
+/*=================================
+List CSS
+===================================*/
+
+.list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list ul li:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f00c";
+	border-radius: 50%;
+	color: #1e8bc3;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	display: inline-block;
+	height: 20px;
+	border: 1px solid #dbe4e9;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.list ul li {
+	margin-top: 20px;
+	position: relative;
+	padding-left: 40px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #1e8bc3;
+}
+
+
+/*=================================
+Testimonial Addon CSS
+===================================*/
+
+.stock-testimonial-box h3 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #333;
+	margin-top: 30px;
+}
+
+.stock-testimonial-box span {
+	font-size: 16px;
+	display: block;
+	font-weight: 400;
+	color: #666666;
+	margin-top: 13px;
+}
+
+.stock-testimonial-box p {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	color: #333;
+	margin-top: 35px;
+	line-height: 1.6;
+}
+
+.stock-testimonial-box img {
+	width: 100%;
+}
+
+
+/*==========
+Button CSS
+===========*/
+
+.bnt-link .wpb_wrapper a {
+	font-size: 18px;
+	color: #1e8bc3;
+	font-weight: 700;
+}
+
+.bnt-link a:hover {
+	color: #333;
+}
+
+.bnt-link a {
+	transition: .4s;
+}
+
+
+/*==============
+Contact Form CSS
+================*/
+
+.stock-contact-form label {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.stock-contact-form button[type="submit"] {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 40px;
+	border: none;
+	background: #1e8bc3;
+	color: #fff;
+}
+
+.contact-margin-bottom {
+	margin-bottom: 70px;
+}
+
+.stock-contact-form button i {
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.select-container select {
+	border: none;
+	background: #f5f8f9;
+	padding: 24px 25px;
+	border: 1px solid #d9e4ea;
+	font-size: 16px;
+	width: 100%;
+}
+
+.stock-contact-form.contact-page textarea {
+	width: 98%;
+}
+
+.stock-contact-form.contact-page h2 {
+	margin-bottom: 30px;
+}
+
+.stock-contact-form.contact-page p {
+	margin-bottom: 70px;
+}
+
+.stock-contact-form h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 50px;
+}
+
+.header-right-content.contact-form .stock-content-box {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.man-bg {
+	min-height: 631px;
+}
+
+ ::placeholder {
+	font-size: 16px;
+	color: #869299;
+}
+
+.map {
+	width: 100%;
+	height: 500px;
+}
+
+
+/*=================
+Promo Box Addon CSS
+===================*/
+
+.single-work-box i {
+	transition: .4s;
+}
+
+.single-work-box i:hover {
+	background: #1e8bc3;
+}
+
+.stock-promo_box-area h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #333;
+}
+
+.stock-promo_box-area p {
+	font-size: 16px;
+	color: #777777;
+	font-weight: normal;
+}
+
+.stock-promo_box-area .bordered-btn {
+	font-size: 17px;
+	font-weight: 700;
+	color: #333;
+	display: inline-block;
+	position: relative;
+}
+
+.stock-promo_box-area {
+	border: 1px solid #d9e4ea;
+	padding: 30px 25px;
+	margin-bottom: 30px;
+}
+
+.single-work-box {
+	margin-bottom: 40px;
+	display: block;
+}
+
+.work-box-bg {
+	height: 294px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+}
+
+.work-box-bg:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #1e8bc3;
+	content: "";
+	z-index: -1;
+	opacity: .8;
+}
+
+.work-box-bg i {
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	background: #333;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -20px;
+	margin-left: -20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+}
+
+.work-box-bg:after {
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+}
+
+.single-work-box:hover .work-box-bg:after {
+	opacity: .5;
+	visibility: visible;
+}
+
+.single-work-box:hover .work-box-bg i {
+	opacity: 1;
+	visibility: visible;
+}
+
+.single-work-box p {
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+/*====================
+Tile Gallery Addon CSS
+======================*/
+
+.stock-tile-gallery {
+	margin-left: -1%;
+}
+
+.stock-tile-gallery-block {
+	margin-left: 1%;
+	width: 24%;
+	float: left;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 1%;
+}
+
+.stock-tile-gallery-imgae-3 .tile-gallery-block-1 {
+	width: 40%;
+}
+
+.stock-tile-gallery-imgae-3 .tile-gallery-block-3 {
+	width: 33%;
+}
+
+.stock-tile-gallery-imgae-5 .stock-tile-gallery-block.tile-gallery-block-1 {
+	width: 60%;
+}
+
+.stock-tile-gallery-imgae-5 .stock-tile-gallery-block.tile-gallery-block-2 {
+	width: 38%;
+}
+
+.stock-tile-gallery-imgae-5 .stock-tile-gallery-block {
+	width: 32.333333%;
+}
+
+.stock-tile-gallery-imgae-6 .stock-tile-gallery-block.tile-gallery-block-1 {
+	width: 40%;
+}
+
+.stock-tile-gallery-imgae-6 .stock-tile-gallery-block.tile-gallery-block-3 {
+	width: 33%;
+}
+
+.stock-tile-gallery-imgae-6 .stock-tile-gallery-block.tile-gallery-block-6 {
+	width: 49%;
+}
+
+
+/*==================
+Project CSS
+====================*/
+
+.vc_wp_custommenu ul,
+.stock-projects ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.vc_wp_custommenu ul li,
+.stock-projects ul li {
+	position: relative;
+	border: 1px solid #d9e4ea;
+	margin-bottom: 5px;
+	transition: .4s;
+}
+
+.stock-projects ul li {
+	cursor: pointer;
+}
+
+.vc_wp_custommenu ul li a,
+.stock-projects ul li {
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
+	display: block;
+	padding: 13px;
+}
+
+.vc_wp_custommenu ul li a:before,
+.stock-projects ul li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #1e8bc3;
+	content: '';
+	transition: .4s;
+	opacity: 0;
+}
+
+.vc_wp_custommenu ul li:hover a:before,
+.stock-projects ul li:hover::before,
+.stock-projects ul li.active::before {
+	width: 5px;
+	opacity: 1;
+}
+
+.vc_wp_custommenu ul li:hover,
+.stock-projects ul li:hover,
+.stock-projects ul li.active {
+	background: #edf4f7;
+}
+
+.stock-projects {
+	margin-top: 100px;
+}
+
+.stock-projects.theme-2 ul li {
+	border: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	padding: 13px;
+	margin-bottom: 40px;
+}
+
+.stock-projects.theme-2 {
+	margin-top: 20px;
+}
+
+.stock-projects.theme-2 ul li:hover,
+.stock-projects.theme-2 ul li.active {
+	background: none;
+	color: #1e8bc3;
+}
+
+.stock-projects.theme-2 ul li:hover::before,
+.stock-projects.theme-2 ul li.active::before {
+	background: none;
+	width: 0;
+	height: 0;
+}
+
+.stock-projects.theme-2 ul li:nth-child(1) {
+	margin: 0;
+	padding: 0px;
+	margin-right: 10px;
+}
+
+ul#menu-project-menu {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*=============
+Finance Area CSS
+================*/
+
+.finance-section-2 h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.finance-section-2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.finance-section-2 ul li {
+	position: relative;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
+	padding-left: 27px;
+	margin-bottom: 10px;
+}
+
+.finance-section-2 ul li:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f00c";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	color: #1e8bc3;
+}
+
+.finance-section-2 img {
+	margin-bottom: 30px !important;
+}
+
+.finace-section-3 img {
+	width: 100%;
+	margin-top: -100px;
+}
+
+
+/*========================================
+                    PRELOADER CSS
+    =======================================*/
+
+.slides-wrapper {
+	position: relative;
+}
+
+.overlay-slides {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 9999;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes move {
+	0% {
+		transform: translateY(0) scaleY(.9);
+	}
+	100% {
+		transform: translateY(-100px) scaleY(1.1);
+	}
+}
+
+.preloader {
+	position: relative;
+	animation: move .5s ease infinite alternate;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotateX(-15deg) rotateY(0deg);
+	}
+	100% {
+		transform: rotateX(-15deg) rotateY(180deg);
+	}
+}
+
+.diamond {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	transform-style: preserve-3d;
+	transform-origin: center center;
+	animation: spin 1s linear infinite;
+}
+
+.diamond span:first-of-type {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	border: 4px solid gold;
+	transform: rotateX(90deg) rotateZ(45deg);
+}
+
+.diamond span:nth-of-type(2) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	border: 4px solid gold;
+	transform: rotateX(90deg) rotateY(90deg) rotateZ(45deg);
+}
+
+.diamond span:last-of-type {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	border: 4px solid gold;
+	transform: rotateZ(45deg);
+}
+
+.movement {
+	position: relative;
+	width: 60px;
+	height: 60px;
+}
+
+@keyframes falloff {
+	0% {
+		top: 30px;
+		height: 0px;
+		opacity: 0;
+	}
+	50% {
+		top: 0;
+		height: 30px;
+		opacity: 1;
+	}
+	100% {
+		top: 0;
+		height: 0px;
+		opacity: 0;
+	}
+}
+
+.movement span:first-of-type {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4px;
+	height: 30px;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0;
+	animation: falloff 1s ease infinite;
+}
+
+@keyframes falloff-2 {
+	0% {
+		height: 0px;
+		opacity: 0;
+	}
+	50% {
+		height: 20px;
+		opacity: 1;
+	}
+	100% {
+		height: 0px;
+		opacity: 0;
+	}
+}
+
+.movement span:first-of-type::after {
+	content: '';
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 4px;
+	height: 20px;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0;
+	animation: falloff-2 1s ease infinite;
+}
+
+@keyframes falloff-3 {
+	0% {
+		top: 40px;
+		height: 0px;
+		opacity: 0;
+	}
+	50% {
+		top: 20px;
+		height: 20px;
+		opacity: 1;
+	}
+	100% {
+		top: 20px;
+		height: 0px;
+		opacity: 0;
+	}
+}
+
+.movement span:nth-of-type(2) {
+	position: absolute;
+	top: 20px;
+	left: calc(50% - 2px);
+	width: 4px;
+	height: 20px;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0;
+	animation: falloff-3 1s ease infinite;
+}
+
+@keyframes falloff-4 {
+	0% {
+		height: 0px;
+		opacity: 0;
+	}
+	50% {
+		height: 40px;
+		opacity: 1;
+	}
+	100% {
+		height: 0px;
+		opacity: 0;
+	}
+}
+
+.movement span:nth-of-type(2)::after {
+	content: '';
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 4px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0;
+	animation: falloff-4 1s ease infinite;
+}
+
+@keyframes falloff-5 {
+	0% {
+		top: 30px;
+		height: 0px;
+		opacity: 0;
+	}
+	50% {
+		top: 0;
+		height: 30px;
+		opacity: 1;
+	}
+	100% {
+		top: 0;
+		height: 0px;
+		opacity: 0;
+	}
+}
+
+.movement span:last-of-type {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 4px;
+	height: 30px;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0;
+	animation: falloff-5 1s ease infinite;
+}
+
+@keyframes falloff-6 {
+	0% {
+		height: 0px;
+		opacity: 0;
+	}
+	50% {
+		height: 20px;
+		opacity: 1;
+	}
+	100% {
+		height: 0px;
+		opacity: 0;
+	}
+}
+
+.movement span:last-of-type::after {
+	content: '';
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 4px;
+	height: 20px;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0;
+	animation: falloff-6 1s ease infinite;
+}
